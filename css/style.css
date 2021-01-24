@@ -40,7 +40,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     text-transform: capitalize;
-    margin-left: 35px;
+    margin-left: 40px;
     max-width: 563px;
     width: 100%;
 }
@@ -88,28 +88,23 @@
 /* button - order now */
 
 .click {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 255px;  
-    height: 68px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
 }
 
-.button-box {
+ .button-box  {
+    padding: 22px 68px 22px 51px;
     background-color: #FFAA00;
-    border-radius: 90px; 
-    margin-left: 40px;
-}   
+    border-radius: 90px;
+    margin-top: 106px;
+}
 
 .button {
     color: #A80E0E;
     font-size: 27px;
-    top: 57%;
-    left: 12%; 
-}  
+    font-family: ;
+}
 
 .button::after {
     content: '  ';
@@ -130,8 +125,6 @@
 	margin: 0 auto;
 	margin-top: 60px; 	  
 }
-
-
 .p-text {
 	color: #382E36;
 	font-size: 20px;
@@ -142,6 +135,10 @@
 	margin-top: 60px;
 	margin-bottom: 100px;
 }
+.image-box:nth-child(4) {
+    margin-left: 35px;
+}
+
 
 /* icons 2*/
 
@@ -227,7 +224,6 @@
 	left: 40%;
 	margin-bottom: 75px;	
 }
-
 
 .text1 {
     width: 449px;
